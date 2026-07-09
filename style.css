@@ -15,13 +15,24 @@ body {
 
 .nav-item {
     list-style: none;
-    margin: 10px;
+    margin: 5px;
+    font-size: 10px;
+    font-weight: bold;
+    padding-right: 40px;
+
+
 }
 
 .navbar a {
     text-decoration: none;
     color: white;
     
+}
+
+.nav-item:first-child {
+    margin-right: auto;
+    padding-left: 50px;
+
 }
 
 
