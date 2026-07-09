@@ -35,4 +35,26 @@ body {
 
 }
 
+.container {
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+}
 
+#date {
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#description {
+    font-size: 13px;
+}
