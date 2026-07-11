@@ -127,7 +127,7 @@ h1 {
     line-height: 1.6;
 }
 
-.content-notes h6 {
+.content-notes h6, .container4 h6 {
     color: #673399;
     letter-spacing: 1px;
 }
@@ -138,7 +138,44 @@ h1 {
     font-weight: bold;
 }
 
-.content-notes p {
+.content-notes p, .container4 .info {
     color:rgb(110, 105, 105);
     font-size: 13px;
+}
+
+.container4 {
+    background-color: #e5ddec;
+    padding: 30px;
+}
+
+.container4 h6, .container4 p {
+    text-align: center;
+}
+
+.container4 p {
+    color:#673399;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+.buttons {
+    display:flex;
+    justify-content: center;
+}
+
+.btn2 {
+    width: 250px;
+    height: 100px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    margin: 10px;
+    border: 2px solid #673399;
+    border-radius: 10px;
+    line-height: 1.6;
+}
+
+.btn-title {
+    color:#673399 ;
+    font-weight:bolder;
 }
