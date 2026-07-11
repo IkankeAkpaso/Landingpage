@@ -179,3 +179,13 @@ h1 {
     color:#673399 ;
     font-weight:bolder;
 }
+
+.foot-note {
+    background-color: #673399;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 15px;
+
+}
