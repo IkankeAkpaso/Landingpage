@@ -171,25 +171,26 @@ h1 {
 }
 
 
-.buttons {
+.details-info {
     display:flex;
     justify-content: center;
 }
 
-.btn2 {
-    width: 250px;
+.details {
+    background-color: white;
+    width: 270px;
     height: 100px;
-    padding-top: 2px;
-    padding-bottom: 10px;
+    padding: 15px;
     margin: 10px;
     border: 2px solid #673399;
     border-radius: 10px;
-    line-height: 1.6;
 }
 
-.btn-title {
+.details h3 {
     color:#673399 ;
     font-weight:bolder;
+    text-align: center;
+    padding-bottom: 15px;
 }
 
 .foot-note {
