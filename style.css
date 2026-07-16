@@ -34,6 +34,11 @@ body {
     
 }
 
+.navbar a:focus-visible , .hero a:focus-visible {
+    background-color:gray;
+    outline: 1px solid black;
+}
+
 
 .hero {
     color: white;
@@ -62,8 +67,14 @@ h1 {
     line-height: 1.6;
 }
 
+.hero a {
+    display: inline-block;
+    text-decoration: none;
+}
+
 .hero .btn {
-    color:#673399;
+    color: #673399;
+    background-color: white;
     border: none;
     border-radius: 20px;
     padding: 10px 20px;
