@@ -148,13 +148,13 @@ h1 {
 
 }
 
-.content-notes h6, .event-details h6 {
+.content-notes h3, .event-details h6 {
     color: #673399;
     letter-spacing: 1px;
     font-size: 15px;
 }
 
-.content-notes h2 {
+.content-notes h4 {
     color: #673399;
     font-size: 40px;
     font-weight: bold;
