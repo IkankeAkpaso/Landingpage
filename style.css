@@ -55,7 +55,6 @@ body {
 
 .hero a:hover {
     font-size: 16px;
-    transition-duration: 1s;
 }
 
 
@@ -99,7 +98,6 @@ h1 {
     margin-top: 50px;
     text-align: center;
     background-color: #e5ddec;
-    margin-right: none;
     width: 100%;
 }
 
@@ -163,16 +161,25 @@ h1 {
 
 }
 
+
 .content-notes h3, .event-details h6 {
     color: #673399;
     letter-spacing: 1px;
-    font-size: 15px;
+    font-size: 15px;    
 }
+
 
 .content-notes h4 {
     color: #673399;
     font-size: 40px;
     font-weight: bold;
+    line-height: 1.1;
+    
+}
+
+.content-notes p {
+    margin-top: 10px;
+    line-height: 1.6;
 }
 
 .content-notes p, .event-details .info {
